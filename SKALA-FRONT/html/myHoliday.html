@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- [CSS] font 변경 -->
+    <style>
+        body {
+            font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+        }
+    </style>
+
+    <!-- [텍스트 포함한 태그] : title{제목} -->
+    <title>Youjin's Holiday</title>
+
+</head>
+
+<body>
+    <!-- [카드구조] : div.card>h1{제목}+p{내용} -->
+    <div class="card">
+        <h1>🌿 유진의 휴일 일과</h1>
+        <p>저의 휴일 일과를 소개합니다.</p>
+    </div>
+
+    <br>
+
+    <!-- 
+       [자동 번호, 카드구조, 부모로 이동, 그룹, 반복] 
+     : (div#schedule$.card>h2{제목}+p*3^br)*3
+    -->
+
+    <div id="schedule1" class="card">
+        <h2>☀️ 여유로운 아침</h2>
+        <p>10:00 - 😴 늦잠 자는 행복</p>
+        <p>10:30 - 🛌 유튜브 보며 뒹굴기</p>
+        <p>11:00 - 🍰 동네 <mark>빵집</mark> 투어</p>
+    </div>
+    <br>
+    <div id="schedule2" class="card">
+        <h2>🏃‍♀️ 신나는 오후</h2>
+        <p>12:00 - 🍽️ 친구랑 점심 먹기</p>
+        <p>13:00 - 🛍️ <mark>소품샵</mark> 구경하기</p>
+        <p>16:00 - ☕️ 카페 가기</p>
+    </div>
+    <br>
+    <div id="schedule3" class="card">
+        <h2>⭐️ 저녁과 밤</h2>
+        <p>18:00 - 🍜 맛있는 저녁 시켜먹기</p>
+        <p>20:00 - ✍️ 오늘의 <mark>일기</mark> 쓰기</p>
+        <p>23:30 - 🌙 뒹구리 하다가 자기</p>
+    </div>
+    <br>
+
+    <!-- [텍스트 포함한 태그] : p{내용} -->
+    <p>🗓️ 휴일 버전 작성일 : 2026년 7월 23일</p>
+</body>
+
+</html>
