@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Park Youjin의 개인 포털 — 프로필, 수업, 휴일, 여행 기록">
+    <meta name="author" content="Park Youjin">
 
     <!-- [단일 태그 생성] : title{Welcome SKALA} -->
     <title>Welcome SKALA</title>
@@ -12,29 +14,65 @@
 <body>
     <!-- [머리글] : header>h1{제목}+p{내용} -->
     <header>
-        <h1>👋 환영 인사</h1>
-        <p>스칼라에 오신 것을 환영합니다.</p>
+        <h1>👋 유진의 유니버스 🚀</h1>
+        <p>저의 프로필, 학습 내용, 여행 기록을 모아둔 Hub 페이지입니다.</p>
     </header>
 
-    <br>
+    <hr>
 
-    <!-- [주요 콘텐츠] : main>nav>h2{제목}+ul>(li>a[href]{메뉴})*3 -->
+    <!-- [링크 영역] : nav>h2{제목}+ul>(li>a[href]{메뉴})*5 -->
+    <nav>
+        <h2>📁 바로가기 메뉴</h2>
+        <ul>
+            <li><a href="myProfile.html">👋 나의 프로필(myProfile)</a></li>
+            <li><a href="myClass.html">📅 나의 수업(myClass)</a></li>
+            <li><a href="myHoliday.html">🌴 나의 휴일(myHoliday)</a></li>
+            <li><a href="myTrip.html">🌏 나의 여행(myTrip)</a></li>
+            <li><a href="signUp.html">👤 회원가입 (Sign Up)</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- [본문 영역] : main>h2{제목}+section*2 -->
     <main>
-        <nav>
-            <h2>🔗 바로가기</h2>
-            <ul>
-                <li><a href="myClass.html">📅 나의 수업(myClass)</a></li>
-                <li><a href="myHoliday.html">🌴 나의 휴일(myHoliday)</a></li>
-                <li><a href="myProfile.html">👋 나의 프로필(myProfile)</a></li>
-            </ul>
-        </nav>
+        <h2>📌 오늘의 주요 소식</h2>
+
+        <!-- [공지] : section>h3{제목}+h4{소식}+p{내용}+p>small{작성일} -->
+        <section>
+            <h3>최근 공지 및 업데이트</h3>
+            <h4>[업데이트] 여행 앨범에 동영상 추가 완료!</h4>
+            <p>와이헤케 섬으로 가는 페리에서 촬영한 브이로그 영상을 추가했습니다.
+                이제 <mark>소리와 영상</mark>으로 뉴질랜드 여행을 추억할 수 있습니다.</p>
+            <p><small>작성일: 2026년 7월 24일</small></p>
+        </section>
+
+        <!-- [사진] : section>h3{제목}+figure>img[src alt style]+figcaption -->
+        <section>
+            <h3>📷 이달의 베스트 컷</h3>
+            <figure>
+                <img src="../media/waiheke.jpg" alt="와이헤케 섬의 해안. 맑은 바닷물과 완만한 언덕, 그 위로 포도밭이 펼쳐져 있다."
+                    style="width:360px;">
+                <figcaption>뉴질랜드 와이헤케 섬의 해안 풍경 (2026년 촬영)</figcaption>
+            </figure>
+        </section>
     </main>
 
-    <br>
+    <hr>
 
-    <!-- [문서 바닥글] : footer>p>small{작성 정보} -->
+    <!-- [사이드바] : aside>h2{제목}+p{내용}*2 -->
+    <aside>
+        <h2>🎨 실시간 정보</h2>
+        <p>현재 위치: 서울특별시 📍</p>
+        <p>추천 학습 사이트: <a href="https://www.w3schools.com/html/" target="_blank">W3Schools 온라인 명세서</a></p>
+    </aside>
+
+    <hr>
+
+    <!-- [문서 바닥글] : footer>p{연락처}+p>small{저작권} -->
     <footer>
-        <p><small>SKALA 4기 · Park Youjin</small></p>
+        <p>이메일 문의: youjin09222@sk.com</p>
+        <p><small>© 2026 유진 포트폴리오. 모든 태그는 웹 표준 시맨틱 태그로 작성되었습니다.</small></p>
     </footer>
 </body>
 
