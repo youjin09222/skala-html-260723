@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="뉴질랜드 오클랜드 어학연수 여행 앨범 — 사진과 영상, 현장의 소리">
+    <meta name="author" content="Park Youjin">
+
+    <!-- [텍스트 포함한 태그] : title{제목} -->
+    <title>Youjin's Trip</title>
+</head>
+
+<body>
+    <!-- [머리글] : header>h1{제목}+p{내용}+audio -->
+    <header>
+        <h1>🌏 나의 여행 앨범 🎵</h1>
+        <p><mark>뉴질랜드 오클랜드</mark>에서 한 달간 어학연수를 하며 담아온 사진과 영상입니다.</p>
+
+        <!-- [오디오] : audio[controls autoplay loop]>source -->
+        <audio controls autoplay loop>
+            <source src="../media/auckland-sound.mp3" type="audio/mpeg">
+            이 브라우저는 audio 태그를 지원하지 않습니다.
+        </audio>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- [사진 앨범] : section>h2{제목}+(figure>img[src alt style]+figcaption)*5 -->
+        <section>
+            <h2>📷 여행 사진</h2>
+
+            <figure>
+                <img src="../media/cornwall-park.jpg" alt="콘월 파크의 넓은 초원. 잔디밭 위로 큰 나무들이 서 있고 멀리 언덕이 이어진다."
+                    style="width:480px;">
+                <figcaption>콘월 파크 (2026.06.21)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../media/ferry-building.jpg" alt="오클랜드 페리 빌딩. 붉은 벽돌과 흰 석재로 지어진 옛 건물 앞으로 사람들이 오가고 있다."
+                    style="width:480px;">
+                <figcaption>페리 빌딩 (2026.06.23)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../media/waiheke.jpg" alt="와이헤케 섬의 해안. 맑은 바닷물과 완만한 언덕, 그 위로 포도밭이 펼쳐져 있다."
+                    style="width:480px;">
+                <figcaption>와이헤케 섬 (2026.06.27)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../media/sky-tower.jpg" alt="오클랜드 도심에 우뚝 솟은 스카이타워. 주변 고층 건물들보다 훨씬 높은 전망탑이 하늘로 뻗어 있다."
+                    style="width:480px;">
+                <figcaption>스카이 타워 (2026.07.02)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../media/britomart.jpg" alt="브리토마트 기차역. 도심 교통의 중심지로, 역 건물 앞 광장에 사람들이 모여 있다."
+                    style="width:480px;">
+                <figcaption>브리토마트 기차역 (2026.07.12)</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- [영상] : section>h2{제목}+figure>video[controls poster]>source^figcaption -->
+        <section>
+            <h2>🎬 나의 여행 브이로그</h2>
+            <figure>
+                <video width="480" controls poster="../media/waiheke.jpg">
+                    <source src="../media/auckland-video.mp4" type="video/mp4">
+                    이 브라우저는 video 태그를 지원하지 않습니다.
+                </video>
+                <figcaption>와이헤케 섬으로 가는 페리 ⛴️</figcaption>
+            </figure>
+        </section>
+    </main>
+</body>
+
+</html>
