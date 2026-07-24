@@ -18,63 +18,60 @@
 
     <hr>
 
-    <!-- [순서 없는 목록, 중첩] : section>h2{제목}+ul>(li>strong{음식}+ul>li{설명})*3 -->
-    <section>
-        <h2>😋 내가 좋아하는 음식</h2>
-        <ul>
-            <li>
-                <strong>🍲 따뜻한 샤브샤브</strong>
-                <ul>
-                    <li>일주일 내내 먹을 수 있는 음식입니다.</li>
-                </ul>
-            </li>
-            <li>
-                <strong>☕️ 달콤한 바닐라라떼</strong>
-                <ul>
-                    <li>공부할 때 빠질 수 없는 친구입니다.</li>
-                </ul>
-            </li>
-            <li>
-                <strong>🍫 초콜릿 들어간 모든 디저트</strong>
-                <ul>
-                    <li>케이크, 쿠키, 빵, 음료 모두 좋아합니다.</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+    <!-- [주요 콘텐츠] : main>section*3 -->
+    <main>
+        <!-- [순서 없는 목록, 중첩] : section>h2{제목}+ul>(li>strong{음식}+ul>li{설명})*3 -->
+        <section>
+            <h2>😋 내가 좋아하는 음식</h2>
+            <ul>
+                <li>
+                    <strong>🍲 따뜻한 샤브샤브</strong>
+                    <ul>
+                        <li>일주일 내내 먹을 수 있는 음식입니다.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>☕️ 달콤한 바닐라라떼</strong>
+                    <ul>
+                        <li>공부할 때 빠질 수 없는 친구입니다.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>🍫 초콜릿 들어간 모든 디저트</strong>
+                    <ul>
+                        <li>케이크, 쿠키, 빵, 음료 모두 좋아합니다.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
 
-    <hr>
+        <hr>
 
-    <!-- [순서 있는 목록] : section>h2{제목}+ol>li*3 -->
-    <section>
-        <h2>🏃‍♀️ 올해 할 일</h2>
-        <ol>
-            <li>✍️ 매일 일기 쓰기</li>
-            <li>🏅 자격증 2개 이상 취득하기</li>
-            <li>🎨 새로운 취미 배우기</li>
-        </ol>
-    </section>
+        <!-- [순서 있는 목록] : section>h2{제목}+ol>li*3 -->
+        <section>
+            <h2>🏃‍♀️ 올해 할 일</h2>
+            <ol>
+                <li>✍️ 매일 일기 쓰기</li>
+                <li>🏅 자격증 2개 이상 취득하기</li>
+                <li>🎨 새로운 취미 배우기</li>
+            </ol>
+        </section>
 
-    <hr>
+        <hr>
 
-    <!-- [설명 목록] : section>h2{제목}+dl>(dt>mark>strong{용어}^^dd{설명})*3-->
-    <section>
-        <h2>✨ 나를 설명하는 단어들</h2>
-        <dl>
-            <dt>
-                🚀 <mark><strong>실행력</strong></mark>
-            </dt>
-            <dd>고민에 시간을 쓰기보다 일단 시도하고 부딪히며 배웁니다.</dd>
-            <dt>
-                🛡️ <mark><strong>책임감</strong></mark>
-            </dt>
-            <dd>과제는 변수가 생기더라도 끝까지 포기하지 않고 완성해 냅니다.</dd>
-            <dt>
-                💡 <mark><strong>유연함</strong></mark>
-            </dt>
-            <dd>새로운 시각이나 변화를 빠르게 받아들이고 내 것으로 만듭니다.</dd>
-        </dl>
-    </section>
+        <!-- [설명 목록] : section>h2{제목}+dl>(dt>mark>strong{용어}^^dd{설명})*3 -->
+        <section>
+            <h2>✨ 나를 설명하는 단어들</h2>
+            <dl>
+                <dt>🚀 <mark><strong>실행력</strong></mark></dt>
+                <dd>고민에 시간을 쓰기보다 일단 시도하고 부딪히며 배웁니다.</dd>
+                <dt>🛡️ <mark><strong>책임감</strong></mark></dt>
+                <dd>과제는 변수가 생기더라도 끝까지 포기하지 않고 완성해 냅니다.</dd>
+                <dt>💡 <mark><strong>유연함</strong></mark></dt>
+                <dd>새로운 시각이나 변화를 빠르게 받아들이고 내 것으로 만듭니다.</dd>
+            </dl>
+        </section>
+    </main>
 
     <!-- [문서 바닥글] : footer>nav>a[href=index.html]+p>small{작성 정보} -->
     <footer>
